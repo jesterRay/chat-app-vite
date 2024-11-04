@@ -1,0 +1,20 @@
+.bg-gradient{
+  background-image: radial-gradient(#a5d8ff, #9dcef4, #95c5e9, #8dbbdf, #85b2d4, #80abcc, #7ca5c4, #779ebc, #7599b4, #7293ac, #708ea5, #6e899d);
+}
+
+
+.alert{
+  animation: alert-anime 750ms ease 0ms forwards;
+}
+
+
+@keyframes alert-anime {
+  from{
+    top: 10%;
+    right: 0;
+  }
+  to{
+    top: 10%;
+    right: 4%
+  }
+}
